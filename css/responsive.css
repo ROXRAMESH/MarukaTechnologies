@@ -312,7 +312,8 @@
 	
 	.main-header .header-lower{
 		position:relative;
-		background-color:#333333;
+		background-color:#252936;
+		margin-top: 20px;
 	}
 	
 	.main-header.light-version .nav-outer{
