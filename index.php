@@ -28,146 +28,11 @@
         <!-- <div class="preloader"></div> -->
 
         <!-- Main Header-->
-        <header class="main-header">
+        <?php
 
-            <!--Header-Upper-->
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="clearfix">
+        require "header.php";
 
-                        <div class="pull-left logo-outer">
-                            <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a>
-                            </div>
-                        </div>
-
-                        <div class="pull-right upper-right clearfix">
-                            <div class="clear-box clearfix">
-                                <!--Info Box-->
-                                <div class="upper-column info-box social-box">
-                                    <ul>
-                                        <li><strong>Follow us on:</strong></li>
-                                        <li>
-                                            <div class="social-links-one">
-                                                <a href="#"><span class="fa fa-facebook"></span></a>
-                                                <a href="#"><span class="fa fa-twitter"></span></a>
-                                                <a href="#"><span class="fa fa-linkedin"></span></a>
-                                                <a href="#"><span class="fa fa-instagram"></span></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!--Info Box-->
-                                <div class="upper-column info-box">
-                                    <div class="icon-box"><span class="flaticon-clock-1"></span></div>
-                                    <ul>
-                                        <li><strong>Opening Hours:</strong></li>
-                                        <li>Mon - Sat: 8.00am to 5.00pm</li>
-                                    </ul>
-                                </div>
-
-                                <!--Info Box-->
-                                <div class="upper-column info-box">
-                                    <a href="contact.html" class="appointment-btn theme-btn btn-style-one"><span
-                                            class="icon fa fa-arrow-circle-right"></span>&nbsp; Get Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--End Header Upper-->
-
-            <!--Header Lower-->
-            <div class="header-lower mt-sm-5">
-
-                <div class="auto-container">
-                    <div class="nav-outer clearfix">
-                        <!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li class="current home dropdown"><a href="#">Home</a>
-
-                                    </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="dropdown"><a href="#">Services</a>
-
-                                    <li class="dropdown"><a href="#">Portfoilo</a>
-
-                                    </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!--Outer Box-->
-                        <div class="outer-box">
-                            <div class="contact-number"><span class="icon flaticon-headphones"></span>011 2841681 / 077
-                                2253595</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Header Lower-->
-
-            <!--Sticky Header-->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <a href="index-2.html" class="img-responsive"><img src="images/logo.png" alt="" title="" style="display: inline-block;
-                            max-width: 52%;"></a>
-                    </div>
-
-                    <!--Right Col-->
-                    <div class="right-col pull-right">
-                        <!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#">Home</a>
-
-                                    </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="dropdown"><a href="#">Services</a>
-
-                                    </li>
-                                    <li class="dropdown"><a href="#">Portfoilo</a>
-
-                                    </li>
-
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </nav><!-- Main Menu End-->
-                    </div>
-
-                </div>
-            </div>
-            <!--End Sticky Header-->
-
-        </header>
+        ?>
         <!--End Main Header -->
 
         <!--Main Slider-->
@@ -177,71 +42,40 @@
                 <div class="tp-banner">
                     <ul>
 
-                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
-                            data-thumb="images/main-slider/image-1.jpg" data-saveperformance="off"
-                            data-title="Awesome Title Here">
-                            <img src="images/main-slider/image-1.jpg" alt="" data-bgposition="center top"
-                                data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/main-slider/image-1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
-                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
-                                data-voffset="-110" data-speed="1500" data-start="800" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-110" data-speed="1500" data-start="800" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                                 <div class="text">Maruka Technologies (Pvt) Ltd is an Electrical Panel Boards
                                     Manufacturing Company</div>
                             </div>
 
-                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
-                                data-voffset="0" data-speed="1500" data-start="1200" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="0" data-speed="1500" data-start="1200" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                                 <h2 style="font-size: 55px;">We are Maruka Technologies <br> (Pvt) Ltd</h2>
                             </div>
 
-                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
-                                data-voffset="130" data-speed="1500" data-start="1600" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn"><a
-                                    href="#" class="theme-btn btn-style-one"><span
-                                        class="icon fa fa-arrow-circle-right"></span>&ensp; Read More</a></div>
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130" data-speed="1500" data-start="1600" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one"><span class="icon fa fa-arrow-circle-right"></span>&ensp; Read More</a></div>
 
-                            <div class="tp-caption sfr sfb tp-resizeme" data-x="right" data-hoffset="50" data-y="bottom"
-                                data-voffset="0" data-speed="1500" data-start="400" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                            <div class="tp-caption sfr sfb tp-resizeme" data-x="right" data-hoffset="50" data-y="bottom" data-voffset="0" data-speed="1500" data-start="400" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                                 <figure class="image"><img src="images/main-slider/content-image.png" alt=""></figure>
                             </div>
 
                         </li>
 
-                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
-                            data-thumb="images/main-slider/image-2.jpg" data-saveperformance="off"
-                            data-title="Awesome Title Here">
-                            <img src="images/main-slider/image-2.jpg" alt="" data-bgposition="center top"
-                                data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/main-slider/image-2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
-                            <div class="tp-caption sft sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="-110" data-speed="1500" data-start="500" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                            <div class="tp-caption sft sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-110" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                                 <div class="text">Welcome to Maruka.lk</div>
                             </div>
 
-                            <div class="tp-caption sfb sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="0" data-speed="1500" data-start="1000" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                            <div class="tp-caption sfb sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="1500" data-start="1000" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
                                 <h2 class="text-center">Maruka Technologies (Pvt) Ltd Is An <br> Electrical Panel Boards
                                     Manufacturing Company
                                 </h2>
                             </div>
 
-                            <div class="tp-caption sfb sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="130" data-speed="1500" data-start="1500" data-easing="easeOutExpo"
-                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn"><a
-                                    href="#" class="theme-btn btn-style-one"><span
-                                        class="icon fa fa-arrow-circle-right"></span>&ensp; Purchase Now</a></div>
+                            <div class="tp-caption sfb sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="130" data-speed="1500" data-start="1500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one"><span class="icon fa fa-arrow-circle-right"></span>&ensp; Purchase Now</a></div>
 
                         </li>
 
@@ -313,8 +147,7 @@
                                     <h3><a href="services-single.html">Inspection & surveys of Electrical systems</a>
                                     </h3>
                                     <div class="text"></div>
-                                    <a href="services-single.html" class="read-more"><span
-                                            class="icon fa fa-arrow-circle-right"></span>&nbsp; Read More</a>
+                                    <a href="services-single.html" class="read-more"><span class="icon fa fa-arrow-circle-right"></span>&nbsp; Read More</a>
                                     <div class="icon-box"><span class="icon flaticon-money-bag"></span></div>
                                 </div>
                             </div>
@@ -323,8 +156,7 @@
                                 <div class="inner-box" style="height: 212px;">
                                     <h3><a href="services-single.html">Energy audit Installation</a></h3>
                                     <div class="text"></div>
-                                    <a href="services-single.html" class="read-more"><span
-                                            class="icon fa fa-arrow-circle-right"></span>&nbsp; Read More</a>
+                                    <a href="services-single.html" class="read-more"><span class="icon fa fa-arrow-circle-right"></span>&nbsp; Read More</a>
                                     <div class="icon-box"><span class="icon flaticon-money-bag"></span></div>
                                 </div>
                             </div>
@@ -361,8 +193,7 @@
                                     </div>
                                     <!--Form Group-->
                                     <div class="form-group">
-                                        <button type="submit" class="theme-btn btn-style-one"><span
-                                                class="icon fa fa-arrow-circle-right"></span>&ensp; Get
+                                        <button type="submit" class="theme-btn btn-style-one"><span class="icon fa fa-arrow-circle-right"></span>&ensp; Get
                                             Services</button>
                                     </div>
                                 </form>
@@ -498,7 +329,7 @@
 
 
         <!--Work Section-->
-        <section class="work-section" style="background:url(images/background/pattern-1.png);">
+        <section class="work-section" style="background:url(images/background/pattern-1.png); margin-bottom: 80px;">
             <div class="auto-container">
                 <!--Sec Title / Centered-->
                 <div class="sec-title light centered">
@@ -514,148 +345,61 @@
                     <div class="gallery-item">
                         <div class="inner-box">
                             <!--Client Box-->
-                            <div class="image-box"><img src="aa/2.jpg" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 50px;">
+                            <div class="image-box">
+                                <center>
+                                    <img src="123.png" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 0px;">
+                                </center>
                                 <div class="overlay-box">
-                                    <div class="content">
-                                        <a class="lightbox-image" href="aa/1.jpg" data-fancybox-group="default-gallery"
-                                            title="Image Title Here"><span class="icon flaticon-plus"></span></a>
-                                    </div>
+
                                 </div>
-                                    <h3>Shelton Benjamin</h3>
+                                <center>
+                                    <h3 style="margin-top: 15px;">Shelton Benjamin</h3>
+                                </center>
+                                <center>
                                     <div class="designation">Compu Korn</div>
-                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                    <div class="text">“ The first mate and his Skipper too will do their comfortable
+                                </center>
+                                <div class="quote-icon"></div>
+                                <center>
+                                    <div class="text" style="margin-top: 5px;">“ The first mate and his Skipper too will
+                                        do their comfortable
                                         these are voyages of the need no welfare states. ”</div>
+                                    <center>
                             </div>
                         </div>
                     </div>
 
-                      <!--Gallery Item-->
-                      <div class="gallery-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
                         <div class="inner-box">
                             <!--Client Box-->
-                            <div class="image-box"><img src="aa/2.jpg" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 50px;">
+                            <div class="image-box">
+                                <center>
+                                    <img src="123.png" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 0px;">
+                                </center>
                                 <div class="overlay-box">
-                                    <div class="content">
-                                        <a class="lightbox-image" href="aa/1.jpg" data-fancybox-group="default-gallery"
-                                            title="Image Title Here"><span class="icon flaticon-plus"></span></a>
-                                    </div>
+
                                 </div>
-                                    <h3>Shelton Benjamin</h3>
+                                <center>
+                                    <h3 style="margin-top: 15px;">Shelton Benjamin</h3>
+                                </center>
+                                <center>
                                     <div class="designation">Compu Korn</div>
-                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                    <div class="text">“ The first mate and his Skipper too will do their comfortable
+                                </center>
+                                <div class="quote-icon"></div>
+                                <center>
+                                    <div class="text" style="margin-top: 5px;">“ The first mate and his Skipper too will
+                                        do their comfortable
                                         these are voyages of the need no welfare states. ”</div>
+                                    <center>
                             </div>
                         </div>
                     </div>
-
-                      <!--Gallery Item-->
-                      <div class="gallery-item">
-                        <div class="inner-box">
-                            <!--Client Box-->
-                            <div class="image-box"><img src="aa/2.jpg" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 50px;">
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <a class="lightbox-image" href="aa/1.jpg" data-fancybox-group="default-gallery"
-                                            title="Image Title Here"><span class="icon flaticon-plus"></span></a>
-                                    </div>
-                                </div>
-                                    <h3>Shelton Benjamin</h3>
-                                    <div class="designation">Compu Korn</div>
-                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                    <div class="text">“ The first mate and his Skipper too will do their comfortable
-                                        these are voyages of the need no welfare states. ”</div>
-                            </div>
-                        </div>
-                    </div>
-
-                      <!--Gallery Item-->
-                      <div class="gallery-item">
-                        <div class="inner-box">
-                            <!--Client Box-->
-                            <div class="image-box"><img src="aa/2.jpg" alt="" style="border-radius: 50%; height:100px; width: 100px; margin-left: 50px;">
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <a class="lightbox-image" href="aa/1.jpg" data-fancybox-group="default-gallery"
-                                            title="Image Title Here"><span class="icon flaticon-plus"></span></a>
-                                    </div>
-                                </div>
-                                    <h3>Shelton Benjamin</h3>
-                                    <div class="designation">Compu Korn</div>
-                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                    <div class="text">“ The first mate and his Skipper too will do their comfortable
-                                        these are voyages of the need no welfare states. ”</div>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
 
             </div>
         </section>
         <!--End Work Section-->
-
-        <!--Client Section-->
-        <section class="client-section">
-            <div class="auto-container">
-                <!--Sec Title / Centered-->
-                <div class="sec-title centered">
-                    <h2>Our Client Says</h2>
-                    <div class="separator"></div>
-                    <div class="text">The first mate and his Skipper too will do their best to make comfortable these
-                        are voyages of the need no welfare states starship enterprise the Brady Bunch.</div>
-                </div>
-                <div class="row clearfix four-item-carousel  owl-carousel">
-                    <!--Client Box-->
-                    <div class="client-box col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/client-1.jpg" alt="" />
-                            </div>
-                            <h3>Shelton Benjamin</h3>
-                            <div class="designation">Compu Korn</div>
-                            <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                            <div class="text">“ The first mate and his Skipper too will do their comfortable these are
-                                voyages of the need no welfare states. ”</div>
-                        </div>
-                    </div>
-
-                    <!--Client Box-->
-                    <div class="client-box col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/client-2.jpg" alt="" />
-                            </div>
-                            <h3>Alberto Rio</h3>
-                            <div class="designation">Compu Korn</div>
-                            <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                            <div class="text">“ The first mate and his Skipper too will do their comfortable these are
-                                voyages of the need no welfare states. ”</div>
-                        </div>
-                    </div>
-
-                    <!--Client Box-->
-                    <div class="client-box col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/client-3.jpg" alt="" />
-                            </div>
-                            <h3>Charlotte</h3>
-                            <div class="designation">Compu Korn</div>
-                            <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                            <div class="text">“ The first mate and his Skipper too will do their comfortable these are
-                                voyages of the need no welfare states. ”</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--End Client Section-->
-
-
 
         <!--Subscribe Style One-->
         <section class="subscribe-style-one">
@@ -668,10 +412,8 @@
                         <div class="col-md-8 col-sm-12">
                             <form method="post" action="#">
                                 <div class="form-group">
-                                    <input type="email" name="email" value="" placeholder="Enter your Email..."
-                                        required>
-                                    <button type="submit" class="theme-btn btn-style-three"><span
-                                            class="icon fa fa-arrow-circle-right"></span> Subscribe Now</button>
+                                    <input type="email" name="email" value="" placeholder="Enter your Email..." required>
+                                    <button type="submit" class="theme-btn btn-style-three"><span class="icon fa fa-arrow-circle-right"></span> Subscribe Now</button>
                                 </div>
                             </form>
                         </div>
@@ -722,16 +464,14 @@
                                         <div class="widget-content">
                                             <!--Post-->
                                             <div class="post">
-                                                <figure class="image"><a href="#"><img
-                                                            src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                                <figure class="image"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
                                                 <div class="text"><a href="#">Skipper too will do their are voyages
                                                         states.</a></div>
                                                 <div class="time">January 28, 2023</div>
                                             </div>
                                             <!--Post-->
                                             <div class="post">
-                                                <figure class="image"><a href="#"><img
-                                                            src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                                <figure class="image"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
                                                 <div class="text"><a href="#">The movie star the and here on Gilligans
                                                         Isle.</a></div>
                                                 <div class="time">February 05, 2023</div>
@@ -757,35 +497,17 @@
                                         <div class="widget-content">
                                             <div class="images-outer clearfix">
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/1.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-1.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-1.jpg" alt=""></a></figure>
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/2.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-2.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-2.jpg" alt=""></a></figure>
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/3.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-3.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/3.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-3.jpg" alt=""></a></figure>
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/4.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-4.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/4.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-4.jpg" alt=""></a></figure>
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/1.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-5.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-5.jpg" alt=""></a></figure>
                                                 <!--Image Box-->
-                                                <figure class="image-box"><a href="images/gallery/2.jpg"
-                                                        class="lightbox-image" title="Image Title Here"
-                                                        data-fancybox-group="footer-gallery"><img
-                                                            src="images/gallery/footer-thumb-6.jpg" alt=""></a></figure>
+                                                <figure class="image-box"><a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="images/gallery/footer-thumb-6.jpg" alt=""></a></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -842,8 +564,7 @@
     <!--End pagewrapper-->
 
     <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span
-            class="icon fa fa-long-arrow-up"></span></div>
+    <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-long-arrow-up"></span></div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

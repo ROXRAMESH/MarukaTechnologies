@@ -1926,7 +1926,7 @@ img{
 
 .gallery-item{
 	position:relative;
-	margin-bottom:30px;
+	margin-bottom:150px;
 }
 
 .gallery-item .inner-box{
@@ -1962,7 +1962,7 @@ img{
 	position:relative;
     width: 100%;
     height: 100%;
-	background-color:rgba(244,118,41,0.80);
+	/* background-color:#4c9ddf; */
 }
 
 .gallery-item .inner-box .image-box .overlay-box .content a{
